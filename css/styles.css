@@ -33,13 +33,18 @@ fieldset {
     padding: 0.5em;
 }
 
+label {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
 #input-searchTerms {
     height: 2em;
     width: 80%;
 }
 
 input[type="submit"] {
-    background-color: #e06256;
+    background-color: #d31d1d;
     border: none;
     padding: 0.6em;
     margin-left: 1em;
@@ -67,7 +72,6 @@ i {
     margin: auto;
     text-align: center;
 }
-
 
 @media only screen and (max-width: 880px) {
     #input-searchTerms {

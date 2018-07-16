@@ -47,7 +47,7 @@ function displayResults(search_results) {
             <p>${result.snippet.description}</p>
             <p>Channel: ${result.snippet.channelTitle}</p>
             <p>Published: ${result.snippet.publishedAt}</p>
-            <iframe src="https://www.youtube.com/embed/${result.id.videoId}" allow="autoplay; encrypted-media" width="350" height="200" frameborder="0" allowFullScreen></iframe>`
+            <iframe src="https://www.youtube.com/embed/${result.id.videoId}" title="Embeded YouTube Video ${result.snippet.title}" allow="autoplay; encrypted-media" width="350" height="200" frameborder="0" allowFullScreen></iframe>`
     });
     $('.search-results').html(resultString);
 }
