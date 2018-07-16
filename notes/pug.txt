@@ -1,5 +1,0 @@
-https://pugjs.org/api/getting-started.html
-
-npm install pug
-
-pug Bootstrap4pug.pug -w -P
